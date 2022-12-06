@@ -1,0 +1,16 @@
+@use '../../../src/albors.scss';
+@import url('https://fonts.googleapis.com/css2?family=Marhey&display=swap');
+
+body{font-family: 'Marhey', cursive;}
+
+$fst: #B2A198;
+$snd: #F3DFBF;
+$thrd: #231F20;
+
+.bg-1{background-color: $fst;}
+.bg-2{background-color: $snd;}
+.bg-3{background-color: $thrd;}
+
+.clr-1{color: $fst;}
+.clr-2{color: $snd;}
+.clr-3{color: $thrd;}
