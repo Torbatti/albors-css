@@ -1,0 +1,31 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Page from '../layouts/Page.astro';
+
+import Nav from '../components/Nav.astro';
+import Footer from '../components/Footer.astro';
+
+import '../Sass/main.scss';
+---
+
+<Layout title="Albors Css">
+	<Nav/>
+	<Page bg_clr="bg-1" clr="clr-3" brd="brd-3">
+		<h1>Welcome to <span class="text-gradient">Astro</span></h1>
+
+	</Page>
+	<Page bg_clr="bg-3" clr="clr-1" brd="brd-1">
+		<h1>Welcome to <span class="text-gradient">Astro</span></h1>
+	</Page>
+	<Page bg_clr="bg-1" clr="clr-3" brd="brd-3">
+		<h1>Welcome to <span class="text-gradient">Astro</span></h1>
+	</Page>
+	<Page bg_clr="bg-3" clr="clr-1" brd="brd-1">
+		<h1>Welcome to <span class="text-gradient">Astro</span></h1>
+	</Page>
+	<Footer/>
+</Layout>
+
+<style lang="scss">
+	
+</style>

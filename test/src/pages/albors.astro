@@ -1,0 +1,60 @@
+---
+import Layout from "../layouts/Layout.astro";
+import Page from "../layouts/Page.astro";
+
+import Nav from "../components/Nav.astro";
+import Footer from "../components/Footer.astro";
+
+import '../Sass/main.scss';
+---
+<Layout title="Albors">
+	<Nav/>
+    <Page bg_clr="bg-1" clr="clr-3" brd="brd-3">
+		<div class="a-vbx-rsp a-grid 12">
+            <div>1</div>
+            <div>2</div>
+            <div>3</div>
+            <div>4</div>
+            <div>5</div>
+            <div>6</div>
+            <div>7</div>
+            <div>8</div>
+            <div>9</div>
+            <div>10</div>
+            <div>11</div>
+            <div>12</div>
+        </div>
+        <div class="a-vbx-rsp a-grid 12">
+            <div><img src="https://picsum.photos/id/11/200/300"></div>
+            <div><img src="https://picsum.photos/id/11/200/300"></div>
+            <div><img src="https://picsum.photos/id/11/200/300"></div>
+            <div><img src="https://picsum.photos/id/11/200/300"></div>
+            <div><img src="https://picsum.photos/id/11/200/300"></div>
+            <div><img src="https://picsum.photos/id/11/200/300"></div>
+            <div><img src="https://picsum.photos/id/11/200/300"></div>
+            <div><img src="https://picsum.photos/id/11/200/300"></div>
+            <div><img src="https://picsum.photos/id/11/200/300"></div>
+            <div><img src="https://picsum.photos/id/11/200/300"></div>
+            <div><img src="https://picsum.photos/id/11/200/300"></div>
+            <div><img src="https://picsum.photos/id/11/200/300"></div>
+        </div>
+	</Page>
+	<Page bg_clr="bg-3" clr="clr-1" brd="brd-1">
+		<h1>Welcome to <span class="text-gradient">Astro</span></h1>
+	</Page>
+	<Page bg_clr="bg-1" clr="clr-3" brd="brd-3">
+		<h1>Welcome to <span class="text-gradient">Astro</span></h1>
+	</Page>
+	<Page bg_clr="bg-3" clr="clr-1" brd="brd-1">
+		<h1>Welcome to <span class="text-gradient">Astro</span></h1>
+	</Page>
+    <Footer/>
+
+</Layout>
+
+
+<style lang="scss">
+    .a-grid div{
+        border: 1px solid black;
+    }
+</style>
