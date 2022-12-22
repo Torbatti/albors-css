@@ -9,7 +9,7 @@
     "build": "astro build",
     "preview": "astro preview",
     "astro": "astro",
-    "sass-build": "sass ../src/:../dist/"
+    "sass-build": "sass -w ../src/:../dist/"
   },
   "dependencies": {
     "astro": "^1.6.13",
