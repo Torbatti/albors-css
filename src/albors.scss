@@ -23,18 +23,10 @@
 }
 .a-vbx-rsp{//responsive
     margin: auto;
-    @media (min-width: 768px) {
-        width: 640px;
-    }
-    @media (min-width: 1024px) {
-        width: 768px;
-    }
-    @media (min-width: 1280px) {
-        width: 1024px;
-    }
-    @media (min-width: 1536px) {
-        width: 1280px;
-    }
+    @media (min-width: 768px) {width: 640px;}
+    @media (min-width: 1024px) {width: 768px;}
+    @media (min-width: 1280px) {width: 1024px;}
+    @media (min-width: 1536px) {width: 1280px;}
 }
 //Btns
 .a-btn{
@@ -51,33 +43,21 @@
     padding: 0.2rem 1rem ;
 }
 //Flex
-.a-flx{
-    display: flex;
-}
+    //Display Flex
+    .a-flx{display: flex;}
+    .a-flx-sm{@media (min-width: 480px) {display: flex;}}
+    .a-flx-md{@media (min-width: 768px) {display: flex;}}
+    .a-flx-lg{@media (min-width: 1024px) {display: flex;}}
     //Flex Directions
-    .a-flx-row{
-        flex-direction: row;
-    }
-    .a-flx-row-rvrs{
-        flex-direction: row-reverse;
-    }
+    .a-flx-row{flex-direction: row;}
+    .a-flx-row-rvrs{flex-direction: row-reverse;}
 
-    .a-flx-col{
-        flex-direction: column;
-    }
-    .a-flx-col-rvrs{
-        flex-direction: column-reverse;
-    }
-    //Flex ????
-    .a-flx-btwn{
-        justify-content: space-between;
-    }
-    .a-flx-evn{
-        justify-content: space-evenly;
-    }
-    .a-itms-cntr{
-        align-items: center;
-    }
+    .a-flx-col{flex-direction: column;}
+    .a-flx-col-rvrs{flex-direction: column-reverse;}
+    //Flex ???? (TODO : THIS SECTION NEED A REWORK)
+    .a-flx-btwn{justify-content: space-between;}
+    .a-flx-evn{justify-content: space-evenly;}
+    .a-itms-cntr{align-items: center;}
 //Grid
 .a-grid{
     display: grid;
