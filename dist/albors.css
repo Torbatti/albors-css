@@ -69,6 +69,24 @@
   display: flex;
 }
 
+@media (min-width: 480px) {
+  .a-flx-sm {
+    display: flex;
+  }
+}
+
+@media (min-width: 768px) {
+  .a-flx-md {
+    display: flex;
+  }
+}
+
+@media (min-width: 1024px) {
+  .a-flx-lg {
+    display: flex;
+  }
+}
+
 .a-flx-row {
   flex-direction: row;
 }
