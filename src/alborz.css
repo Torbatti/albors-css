@@ -1,5 +1,22 @@
 /* flex */
 .aflex{display:flex;}
 
+/* flex-direction */
+.aflex-row{flex-direction:row;}
+.aflex-row-rev{flex-direction:row-reverse;}
+
+.aflex-column{flex-direction:column;}
+.aflex-column-rev{flex-direction:column-reverse;}
+
 /* grid */
 .agrid{display:grid;}
+
+/* justify-content */
+.acontent-center{justify-content:center;}
+
+.acontent-between{justify-content:space-between;}
+.acontent-around{justify-content:space-around;}
+.acontent-evenly{justify-content:space-evenly;}
+
+/* align-items */
+.aitems-center{align-items:center;}
