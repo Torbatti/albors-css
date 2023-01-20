@@ -2,25 +2,6 @@
 
 /* Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Tajawal&display=swap');
-body{font-family:'Tajawal',sans-serif;};
+body{font-family:'Tajawal',sans-serif;}
 
 /* Variables */
-:root
-{
-    --c1:#E6E6EA;--c2:#242325;--c3:#63A375;--c4:#D57A66;--c5:#F1F15E;
-};
-
-/* background colors */
-.ab1{color:var(--c1);}
-.ab2{color:var(--c2);}
-.ab3{color:var(--c3);}
-.ab4{color:var(--c4);}
-.ab5{color:var(--c5);}
-
-/* text colors */
-.ac1{color:var(--c1);}
-.ac2{color:var(--c2);}
-.ac3{color:var(--c3);}
-.ac4{color:var(--c4);}
-.ac5{color:var(--c5);}
-
