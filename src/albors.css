@@ -4,11 +4,9 @@
 /* box */
 .abox{}
 
-.abox-row{}
-.abox-column{}
-
-.abox-page{}
-
+.abox-row{min-width:100%;}
+.abox-column{min-height:100%;}
+.abox-page{width:100vw;height:100vh;}
 
 /* vbox */
 .avbox{margin:auto;}
@@ -16,5 +14,3 @@
 @media(min-width:1024px){.avbox{width:768px;}}
 @media(min-width:1280px){.avbox{width:1024px;}}
 @media(min-width:1536px){.avbox{width:1280px;}}
-
-
