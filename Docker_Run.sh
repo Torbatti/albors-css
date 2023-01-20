@@ -1,0 +1,1 @@
+docker run --name albors -d -p 8080:80 albors-nginx
