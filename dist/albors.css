@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Tajawal&display=swap');
+body{font-family:'Tajawal',sans-serif;}
+:root{--c1:#E0B7B7;--c2:#2F2F2F;--c3:#9E6E6E;--c4:#DC7F9B;--c5:#62776B;}
+.bc1{background-color:var(--c1);}.bc2{background-color:var(--c2);}.bc3{background-color:var(--c3);}.bc4{background-color:var(--c4);}.bc5{background-color:var(--c5);}
+.tc1{color:var(--c1);}.tc2{color:var(--c2);}.tc3{color:var(--c3);}.tc4{color:var(--c4);}.tc5{color:var(--c5);}
+*{padding:0;margin:0;box-sizing:border-box;}
+.box{}.box-row{min-width:100%;}.box-column{min-height:100%;}.box-page{width:100vw;height:100vh;}
+.vbox{margin:auto;}@media(min-width:768px){.vbox{width:640px;}}@media(min-width:1024px){.vbox{width:768px;}}@media(min-width:1280px){.vbox{width:1024px;}}@media(min-width:1536px){.vbox{width:1280px;}}
+.grid{display:grid;}
+.flex{display:flex;}
+.flex-row{flex-direction:row;}.flex-row-rev{flex-direction:row-reverse;}.flex-col{flex-direction:column;}.flex-col-rev{flex-direction:column-reverse;}
+.flex-wrap{flex-wrap:wrap;}.flex-wrap-rev{flex-wrap:wrap-reverse;}.flex-nowrap{flex-wrap:nowrap;}
+.jcontent-start{justify-content:flex-start;}.jcontent-end{justify-content:flex-end;}.jcontent-center{justify-content:center;}.jcontent-between{justify-content:space-between;}.jcontent-around{justify-content:space-around;}.jcontent-evenly{justify-content:space-evenly;}
+.jitems-start{justify-items:start;}.jitems-end{justify-items:end;}.jitems-center{justify-items:center;}.jitems-stretch{justify-items:stretch;}
+.jself-auto{justify-self:auto;}.jself-start{justify-self:start;}.jself-end{justify-self:end;}.jself-center{justify-self:center;}.jself-stretch{justify-self:stretch;}
+.aitems-start{align-items:flex-start;}.aitems-end{align-items:flex-end;}.aitems-center{align-items:center;}.aitems-baseline{align-items:baseline;}.aitems-stretch{align-items:stretch;}
+.acontent-baseline{align-content:baseline;}.acontent-start{align-content:flex-start;}.acontent-end{align-content:flex-end;}.acontent-center{align-content:center;}.acontent-between{align-content:space-between;}.acontent-around{align-content:space-around;}.acontent-evenly{align-content:space-evenly;}

@@ -1,0 +1,60 @@
+/* grid */
+.grid{display:grid;}
+
+/* flex */
+.flex{display:flex;}
+
+/* flex-direction */
+.flex-row{flex-direction:row;}
+.flex-row-rev{flex-direction:row-reverse;}
+.flex-col{flex-direction:column;}
+.flex-col-rev{flex-direction:column-reverse;}
+
+/* flex wrap */
+.flex-wrap{flex-wrap:wrap;}
+.flex-wrap-rev{flex-wrap:wrap-reverse;}
+.flex-nowrap{flex-wrap:nowrap;}
+
+/* justify-content */
+.jcontent-start{justify-content:flex-start;}
+.jcontent-end{justify-content:flex-end;}
+.jcontent-center{justify-content:center;}
+.jcontent-between{justify-content:space-between;}
+.jcontent-around{justify-content:space-around;}
+.jcontent-evenly{justify-content:space-evenly;}
+
+/* justify-items */
+.jitems-start{justify-items:start;}
+.jitems-end{justify-items:end;}
+.jitems-center{justify-items:center;}
+.jitems-stretch{justify-items:stretch;}
+
+/* justify-self */
+.jself-auto{justify-self:auto;}
+.jself-start{justify-self:start;}
+.jself-end{justify-self:end;}
+.jself-center{justify-self:center;}
+.jself-stretch{justify-self:stretch;}
+
+/* align-items */
+.aitems-start{align-items:flex-start;}
+.aitems-end{align-items:flex-end;}
+.aitems-center{align-items:center;}
+.aitems-baseline{align-items:baseline;}
+.aitems-stretch{align-items:stretch;}
+
+/* align-content */
+.acontent-baseline{align-content:baseline;}
+.acontent-start{align-content:flex-start;}
+.acontent-end{align-content:flex-end;}
+.acontent-center{align-content:center;}
+.acontent-between{align-content:space-between;}
+.acontent-around{align-content:space-around;}
+.acontent-evenly{align-content:space-evenly;}
+
+
+
+/* https://coolors.co/fcfc62-63a375-d57a66-e6e6ea-242325 */
+/* https://css-tricks.com/an-interview-with-elad-shechter-on-the-new-css-reset/#top-of-site */
+/* https://byby.dev/normalize-css */
+/* https://meyerweb.com/eric/tools/css/reset/ */

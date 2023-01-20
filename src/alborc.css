@@ -1,0 +1,17 @@
+/* :root{--c1:#E6E6EA;--c2:#242325;--c3:#63A375;--c4:#D57A66;--c5:#F1F15E;} */
+:root{--c1:#E0B7B7;--c2:#2F2F2F;--c3:#9E6E6E;--c4:#DC7F9B;--c5:#62776B;}
+
+/* background colors */
+.bc1{background-color:var(--c1);}
+.bc2{background-color:var(--c2);}
+.bc3{background-color:var(--c3);}
+.bc4{background-color:var(--c4);}
+.bc5{background-color:var(--c5);}
+
+/* text colors */
+.tc1{color:var(--c1);}
+.tc2{color:var(--c2);}
+.tc3{color:var(--c3);}
+.tc4{color:var(--c4);}
+.tc5{color:var(--c5);}
+
