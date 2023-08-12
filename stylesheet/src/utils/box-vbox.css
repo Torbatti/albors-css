@@ -1,0 +1,16 @@
+/*
+  // Todo: Box & Vbox Need A Overhull 
+  // Todo: Box-XXX size/margin/padding need a overhull 
+*/
+
+/* Box */
+.box  {width:calc(100% - 2rem);margin:auto;}
+
+.box-row  {width:100%;}
+.box-col  {min-height:100vh;padding:1rem auto;}
+.box-page {width:100%;min-height:100vh;padding:1rem auto;}
+
+/* Vbox */
+.vbox {width:calc(100% - 1rem);margin:auto;}
+@media(min-width:768px)   {.vbox{width:calc(100% - 2rem);}}
+@media(min-width:1280px)  {.vbox{width:calc(1280px - 2rem);}}

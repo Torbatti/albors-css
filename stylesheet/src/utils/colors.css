@@ -1,0 +1,17 @@
+.bgc1  {background-color: var(--c1);}
+.bgc2  {background-color: var(--c2);}
+.bgc3  {background-color: var(--c3);}
+.bgc4  {background-color: var(--c4);}
+.bgc5  {background-color: var(--c5);}
+
+.brc1  {border-color: var(--c1);}
+.brc2  {border-color: var(--c2);}
+.brc3  {border-color: var(--c3);}
+.brc4  {border-color: var(--c4);}
+.brc5  {border-color: var(--c5);}
+
+.tc1  {color: var(--c1);}
+.tc2  {color: var(--c2);}
+.tc3  {color: var(--c3);}
+.tc4  {color: var(--c4);}
+.tc5  {color: var(--c5);}
