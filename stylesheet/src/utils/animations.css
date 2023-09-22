@@ -1,0 +1,27 @@
+/* Animations */
+@keyframes height-change{
+  from{height: var(--start-height);}
+  to  {height: var(--end-height);}
+}
+@keyframes width-change{
+  from{width: var(--start-height);}
+  to  {width: var(--end-height);}
+}
+@keyframes background_color-change{
+  from {opacity: var(--start-opacity); }
+  to   {opacity: var(--end-opacity); }
+}
+@keyframes text_color-change{
+  from {opacity: var(--start-opacity); }
+  to   {opacity: var(--end-opacity); }
+}
+@keyframes opacity-change{
+  from {opacity: var(--start-opacity); }
+  to   {opacity: var(--end-opacity); }
+}
+
+.animation-sample{
+  --start-height: 9rem;
+  --end-height:   0rem;
+  animation: height-change .26s;
+}

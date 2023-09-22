@@ -1,0 +1,31 @@
+{
+  "name": "albors-css",
+  "version": "0.1.0",
+  "description": "albors css is a all-in-one class-style stylesheet to use",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "lightningcss --minify --bundle --targets '>= 0.25%' stylesheet/src/albors.css -o stylesheet/dist/albors.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Torbatti/albors-css.git"
+  },
+  "keywords": [
+    "css",
+    "class",
+    "all-in-one"
+  ],
+  "author": "torbatti",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Torbatti/albors-css/issues"
+  },
+  "homepage": "https://github.com/Torbatti/albors-css#readme",
+  "devDependencies": {
+    "lightningcss-cli": "^1.21.5"
+  }
+}
