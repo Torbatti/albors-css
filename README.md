@@ -5,6 +5,16 @@
 - Use with "CAUTION"
 - Be mindful , Thanks.
 
+# USE Whatever you want! 
+-  Use alborscss for full package or import whacha need
+```css
+    @import url("./albors-color.css");
+    @import url("./albors-display.css");
+    @import url("./albors-font.css");
+    @import url("./albors-reset.css");
+    @import url("./albors-rtl.css");
+    @import url("./albors-text.css");
+```
 
 # Albors-css
 [LightningCss](https://lightningcss.dev/)
