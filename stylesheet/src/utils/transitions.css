@@ -1,8 +1,0 @@
-/* Defaults */
-.d-bg-change   {transition:background-color 1.25s;}
-.d-text-change {transition:color 1.25s;}
-.d-tbg-change  {transition:background .25s,color .25s;}
-
-.transition-width{
-  transition: width .25s ease-in-out;
-}

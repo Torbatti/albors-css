@@ -8,7 +8,7 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "lightningcss --minify --bundle --targets '>= 0.25%' stylesheet/src/albors.css -o stylesheet/dist/albors.css"
+    "build": "lightningcss --minify --bundle --targets '>= 0.25%' src/*.css --output-dir dist/"
   },
   "repository": {
     "type": "git",
