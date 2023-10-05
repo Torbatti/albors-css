@@ -319,9 +319,9 @@ object {
 
 
 
-ol, ul {
+/* ol, ul {
 	list-style: none;
-}
+} */
 blockquote, q {
 	quotes: none;
 }
@@ -361,8 +361,3 @@ input:focus {
   }
 /*  */
 
-/* 
-nav :where(ol, ul) {
-  list-style: none;
-} 
-*/
