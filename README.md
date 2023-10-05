@@ -1,7 +1,7 @@
 # !! Albors-css is in Early Alphas !!
 - Albors-css is in its early dev prototypes
 - Albors-css is not stable enough to use in production
-- There'll be breaking changes here and then
+- There'll be breaking changes here and there
 - Use with "CAUTION"
 - Be mindful , Thanks.
 
